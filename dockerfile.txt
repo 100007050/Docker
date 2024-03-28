@@ -1,0 +1,8 @@
+# Utiliza una imagen de PHP con Apache
+FROM php:7.4-apache
+
+# Establece el directorio de trabajo en el directorio raíz del servidor web Apache
+WORKDIR /var/www/html
+
+# Expone el puerto 80 para que Apache sea accesible
+EXPOSE 80
